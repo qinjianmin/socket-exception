@@ -1,0 +1,6 @@
+add_executable(server4 server4.c)
+target_link_libraries(server4 socketlib)
+
+add_executable(client4 client4.c)
+target_link_libraries(client4 socketlib)
+

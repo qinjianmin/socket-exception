@@ -1,0 +1,11 @@
+add_executable(server3 server3.c)
+target_link_libraries(server3 socketlib)
+
+add_executable(client3-1 client3-1.c)
+target_link_libraries(client3-1 socketlib)
+
+add_executable(client3-2 client3-2.c)
+target_link_libraries(client3-2 socketlib)
+
+add_executable(client3-3 client3-3.c)
+target_link_libraries(client3-3 socketlib)
