@@ -1,0 +1,8 @@
+项目通过 cmake 构建，请查阅官网首先安装 cmake 相关依赖，然后进入根目录，执行如下指令编译代码
+
+mkdir build
+cd build
+cmake ..
+make
+
+然后可以启动 bin 文件夹中的程序，复现文章中的case。
